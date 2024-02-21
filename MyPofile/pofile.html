@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+          <meta charset="utf-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-pink.css">    
+          <title>Links website</title>
+          <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+          <style>
+          body {
+            
+          background-color: rgba(8, 8, 8, 0.975);
+            width: 100px;
+           height: 4px;
+           border-radius: 50px;
+            margin-left: 300px; 
+            box-shadow: 60px;
+         
+         background-position: bottom;
+          }
+      
+          .container {
+            width: 2000vh;
+            height: 800px;
+            /* padding-right: 120px;
+            padding-left: 100px;
+            */
+            color: rgb(15, 7, 0);
+          
+            background-color: #ff0000df;
+            border-radius: 40px;background-size: cover;
+            background-image:url("DSC_0002.jpg");    
+            font-size:22px;
+          }
+      
+      
+          .f{
+                background-color: hwb(0 13% 37% / 0.316);
+                width: 250px;
+           height: 50px;
+           border-radius: 80px;
+           font-size: large;
+           border-style: solid;
+           border-bottom-color:#ff0000df;
+           color: hsl(58, 89%, 46%);
+          }
+
+         .s{
+          background-color: hwb(0 13% 37% / 0.377);
+           width: 250px;
+           height: 50px;
+           border-radius: 20px;
+           font-size: large;
+           border-style: solid;
+           border-bottom-color: #ff0000df;
+           color: hsl(58, 89%, 46%);
+         }
+
+
+         .t{
+          background-color: hwb(0 13% 37% / 0.444);
+          width: 250px;
+           height: 50px;
+           border-radius: 20px;
+           font-size: large;
+           border-style: solid;
+           border-bottom-color: #ff0000df;
+           color: hsl(58, 89%, 46%);
+         }
+
+         .fo{
+          background-color: hwb(0 13% 37% / 0.314);
+          width: 250px;
+           height: 50px;
+           border-radius: 20px;
+           font-size: large;
+           border-style: solid;
+           border-bottom-color: #ff002b;
+           color: hsl(58, 89%, 46%);
+         }
+
+         .g{
+          background-color: hwb(0 13% 37% / 0.311);
+          width: 250px;
+           height: 50px;
+           border-radius: 20px;
+           font-size: large;
+        border-style: solid;
+           border-bottom-color: #ff000d;
+           color: hsl(58, 89%, 46%);
+         }
+
+
+
+
+
+
+          .links-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            color: hwb(0 6% 3%);
+            margin-left: 50px;
+            color: hsl(58, 89%, 46%);
+            font-size: 20px;
+          }
+      
+          .links-container a {
+            width: 160%;
+            background-color: bisque;
+          }
+      
+          .w3-theme-l1{
+            background-color: brown;
+          }
+          .w3-theme-l1:hover {
+            background-color: #f6f61398 !important;
+          }
+      
+          .margin-top-2 {
+            margin-top: 32px;
+            color: hsl(58, 89%, 46%);
+          }
+      
+          .bottom {
+            width: 100%;
+            text-align: center;
+            width: auto;
+            font-weight: bolder;
+          }
+      
+          .bottom span {
+            color: #021822;
+          }
+      
+          .bottom svg {
+            stroke: #2cc2bb52;
+            fill: hsla(317, 82%, 62%, 0.425);
+          }
+      
+          @media (min-width: 768px) {
+            .link {
+              width: 100%;
+            }
+          }
+          @media (min-width: 576px) {
+            .container {
+              max-width: 540px;
+            }
+          }
+          </style>
+        </head>
+        <body>
+          <!-- Content container -->
+          <div class="container">
+      
+            
+            <div style="text-align: right ;">
+              <img src="sd.jpg" class="w3-margin" alt="Hey Ram..." width="100px" height="110px" style="border-radius: 50%;">
+              <p><span class="name w3-padding w3-pink w3-round" style="font-weight: bolder;">Hi, I'm Ankit Sisode...!</span></p>
+              <p style="font-weight: bolder;">Check Out My Links.....!!!</p>
+            </div>
+      
+            
+            <h4 class="margin-top-2" style="text-align: center;">MY SOCIAL NETWORKS</h4>
+            <div class="links-container">
+              <button class="f" onclick="facebook()">Facebook</button>
+              <button class="s" onclick=" Instagram()">Instagram</button>
+              <button class="t"  onclick="Twitter()">Twitter<button>
+              <button class="fo" onclick="whatsapp()">whatsapp</button>
+            </div>
+      
+            
+            <h4 class="margin-top-2" style="text-align: center;">MY CV</h4>
+            <div class="links-container">
+              <button class="g" onclick="MyCv()">Curriculum Vitae</button>
+            </div>
+      
+      
+          
+            <div class="bottom margin-top-2 w3-padding w3-round">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+              <span style="vertical-align: 7px;"> 2023 -- September Doe </span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </div>
+           
+          </div>
+        
+            <script type="text/javascript">
+        function facebook()
+        { 
+            var usercomfirmation = confirm("Do you want to visit web site ");
+             if(usercomfirmation==true)
+             {
+            
+               window.open("https://www.facebook.com/");
+               return true;
+             }
+             else
+             {
+                document.write("User dont visit the webSite");
+                return false;
+             }
+        }
+      
+
+
+    
+        function Instagram()
+        { 
+            var usercomfirmation = confirm("Do you want to visit web site ");
+             if(usercomfirmation==true)
+             {
+            
+               window.open("https://www.instagram.com/");
+               return true;
+             }
+             else
+             {
+                document.write("User dont visit the webSite");
+                return false;
+             }
+        }
+
+
+        function Twitter()
+        { 
+            var usercomfirmation = confirm("Do you want to visit web site ");
+             if(usercomfirmation==true)
+             {
+            
+               window.open("https://www.twitter.com/");
+               return true;
+             }
+             else
+             {
+                document.write("User dont visit the webSite");
+                return false;
+             }
+        }
+
+
+
+        function whatsapp()
+        { 
+            var usercomfirmation = confirm("Do you want to visit web site ");
+             if(usercomfirmation==true)
+             {
+            
+               window.open("https://web.whatsapp.com/");
+               return true;
+             }
+             else
+             {
+                document.write("User dont visit the webSite");
+                return false;
+             }
+        }
+          
+  
+        function MyCv()
+        { 
+            var usercomfirmation = confirm("Do you want to visit web site ");
+             if(usercomfirmation==true)
+             {
+            
+             
+              window.FileReader("c:\Users\ankit\Downloads\CV_2023070223234298 (1).pdf");
+               return true;
+             }
+             else
+             {
+                document.write("User dont visit the webSite");
+                return false;
+             }
+        }
+
+          </script>
+        </body>  
+ 
